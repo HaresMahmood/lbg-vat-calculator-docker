@@ -1,7 +1,7 @@
 pipeline{
  environment {
  registry = "haresm/vatcal"
-        registryCredentials = "dockerhub_id"
+        registryCredentials = "docker_id"
         dockerImage = ""
     }
     agent any
